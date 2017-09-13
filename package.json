@@ -6,6 +6,12 @@
   "author": "Favio Mobile",
   "private": true,
   "license": "BSD",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "4.13.4",
     "socket.io": "1.4.6"
