@@ -1,0 +1,13 @@
+{
+  "name": "volt.io-chat",
+  "version": "0.0.2",
+  "description": "Volt sample chat using socket.io",
+  "main": "index.js",
+  "author": "Favio Mobile",
+  "private": true,
+  "license": "BSD",
+  "dependencies": {
+    "express": "4.13.4",
+    "socket.io": "1.4.6"
+  }
+}
