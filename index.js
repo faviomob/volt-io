@@ -8,7 +8,7 @@ var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
-var port = process.env.PORT || 5000;
+var port = 5000;//process.env.PORT || 5000;
 
 server.listen(port, function () {
   console.log('VoltIO listening at port %d', port);
